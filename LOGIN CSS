@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-learning Ilkom</title>
+	<style>
+		body{
+			background-image: url(maxresdefault.png);
+		}
+		.login{
+			float: right;
+		}
+		.menu{
+			font-size: 15px;
+		}
+		.menu img{
+			position: fixed;
+		}
+	</style>
+</head>
+<body>
+	<div class="logo">
+		<img src=INSYSCOM.png height="140" >
+	</div>
+	<div class="login">
+		<tr><center>
+			<td><input type=text placeholder="Username"></td>
+			<td><input type=text placeholder="Password"></td>
+			<td></td>
+			<td><a href="Dashboard.html"><input type="submit" value="Login"></a></td>
+		</tr></center>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div class="menu">
+		<table border=0><center><img src=Screenshot_19.png height="350"></center>
+		</table>
+		<table bgcolor="white" border=1 width="330">
+			<tr><td><h3>Dashbourd</h3></td></tr>
+			<tr><td><h3>Profile</h3></td></tr>
+			<tr><td><h3>Course</h3></td></tr>
+			<tr><td><h3>Event</h3></td></tr>
+			<tr><td><h3>Forum</h3></td></tr>
+			<tr><td><h3>Private File</h3></td></tr>
+			<tr><td><h3>Setting</h3></td></tr>
+		</table>
+	</div>
+</body>
+</html>
