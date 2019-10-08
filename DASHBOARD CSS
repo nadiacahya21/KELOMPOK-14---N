@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-learning Ilkom</title>
+	<style>
+		body{
+			background-image: url(maxresdefault.png);
+		}
+		.cari img{
+			position: absolute;
+		}
+		.icon{
+			float: left;
+		}
+		.private{
+			float: right;
+		}
+		.matkul{
+		position: absolute;
+		left: 550px;
+		top: 150px;
+		}
+		.Private{
+		position: absolute;
+		right: 100px;
+		top: 100px;
+		}
+		
+		.Timeline{
+		position: absolute;
+		right: 100px;
+		top: 175px;
+		}
+
+		.Users{
+		position: absolute;
+		right: 100px;
+		top: 250px;
+		}
+		
+		.icon{
+		position: absolute;
+		left: 550px;
+		top: 100px;
+		}
+	</style>
+</head>
+<body style="background: url(dashboard.jpg); background-repeat: no-repeat; background-size: 80% 80%; background-position: center; >
+	<div class="logo">
+		<img src=INSYSCOM.png height="140">
+	</div>
+	<div class="cari">
+		<center><table bgcolor="white" border=0 width="175">
+			<td><input type="text"><img src="magnifier-tool.png" height="20">
+			</td>
+		</table></center>
+	</div>
+	<br>
+	<div class="menu2">
+		<div class="icon">
+		<center><table border="0">
+			<td><img src="menu-symbol-of-three-parallel-lines.png" height=30></td>
+			<td><b>COURSE</b></td>
+		</table></center>
+		</div>
+		<table bgcolor="white" border=1 width="330">
+		<tr><td><h3>Dashboard</h3></td></tr>
+		<tr><td><h3>Profile</h3></td></tr>
+		<tr><td><h3>Course</h3></td></tr>
+		<div class="samping">
+			<tr><td><h4>&emsp;&emsp;&emsp;Analisa dan Perancangan Sistem</h4></td></tr>
+			<tr><td><h4>&emsp;&emsp;&emsp;Pemrograman Berbasis Objek I</h4></td></tr>
+			<tr><td><h4>&emsp;&emsp;&emsp;Jaringan Komputer</h4></td></tr>
+			<tr><td><h4>&emsp;&emsp;&emsp;Pengantar Kecerdasan Buatan</h4></td></tr>
+			<tr><td><h4>&emsp;&emsp;&emsp;Perancangan Website</h4></td></tr>
+			<tr><td><h4>&emsp;&emsp;&emsp;Etika Profesi</h4></td></tr>
+			<tr><td><h4>&emsp;&emsp;&emsp;Arsitektur Komputer</h4></td></tr>
+			<tr><td><h4>&emsp;&emsp;&emsp;Riset Operasi</h4></td></tr>
+			<tr><td><h4>&emsp;&emsp;&emsp;Teori Graf</h4></td></tr>
+		</div>
+		<tr><td><h5>Event</h5></td></tr>
+		<tr><td><h5>Forum</h5></td></tr>
+		<tr><td><h5>Private</h5></td></tr>
+		<tr><td><h5>Setting</h5></td></tr>
+		</table>
+		<div class="matkul">
+		<table border="0" bgcolor="white" width="350" ><ul>
+			<tr><td><li><a href="*">ANALISA DAN PERANCANGAN SISTEM</a></li></td></tr>
+			<tr><td><li><a href="*">PEMROGRAMAN BERBASIS OBJEK I</a></li></td></tr>
+			<tr><td><li><a href="*">JARINGAN KOMPUTER</a></li></td></tr>
+			<tr><td><li><a href="*">PENGANTAR KECERDASAN BUATAN</a></li></td></tr>
+			<tr><td><li><a href="*">PERANCANGAN WEBSITE</a></li></td></tr>
+			<tr><td><li><a href="*">ETIKA PROFESI</a></li></td></tr>
+			<tr><td><li><a href="*">ARSITEKTUR KOMPUTER</a></li></td></tr>
+			<tr><td><li><a href="*">RISET OPERASI</a></li></td></tr>
+			<tr><td><li><a href="*">TEORI GRAF</a></li></td></tr>
+		</table></ul>
+		</div>
+	</div>
+	<div class="Private">
+		<table border=1 bgcolor="white">
+		<tr><td><b><img src="folder.png" height="10">Private Files</b></td></tr>
+		<tr><td>Manage Private File</td></tr>
+		</table>
+	</div>
+	<div class="Timeline">
+	<table border=1 bgcolor="white">
+		<tr><td><b><img src="clock.png" height="20">Timeline</b></td></tr>
+		<tr><td><img src="file.png" height="20">Tugas - Resume Tugas Is Due</td></tr>
+	</table>	
+	</div>
+	<div class="Users">
+	<table border=1 bgcolor="white">
+		<tr><td><b><img src="multiple-users-silhouette.png" height="20">Online Users</b></td></tr>
+		<tr><td><center>2 Online Users<i>(Last 5 Minute)</i></center></td></tr>
+		<tr><td><img src="user-silhouette.png" height="20">Gledek Halilintar-191019</td></tr>
+		<tr><td><img src="user-silhouette.png" height="20">Lia Ricis-181130</td></tr>
+	</table>
+	</div>
+</body>
+</html>
